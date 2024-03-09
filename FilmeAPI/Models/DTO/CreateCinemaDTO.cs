@@ -6,5 +6,6 @@ namespace FilmeAPI.Models.DTO
     {
         [Required(ErrorMessage = "Campo obrigatório")]
         public string Nome { get; set; }
+        public int IdEndereco { get; set; }
     }
 }
